@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">BaseVoc</string>
+    <string name="mother">Die Gewünschte Sprache: </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_base_voc">BaseVoc</string>
+    <color name="bgcolor">#99D9EA</color>
+    <string name="logo">logo</string>
+
+    <string name="animals">Tiere</string>
+	<string name="transport">Transportieren</string>
+	<string name="city">Stadt</string>
+	<string name="clothes">Kleidung</string>
+	<string name="colors">Farben</string>
+	<string name="people">Personen</string>
+	<string name="foods">Lebensmittel-Getränke</string>
+	<string name="home">Haus</string>
+	<string name="body">Körper</string>
+	<string name="nature">Natur</string>
+	<string name="jobs">Beruf</string>
+	<string name="math">Mathematik</string>
+	<string name="numbers">Zahlen</string>
+	<string name="months">Monate</string>
+	<string name="times">Zeit</string>
+	<string name="verbs">Verben</string>
+	<string name="adjectives">Adjektiv-Adverb</string>
+	<string name="misc">Verschieden</string>
+    
+    
+    
+</resources>

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/bgcolor"
+    android:gravity="center"
+    >
+
+	       
+    <TextView
+        android:textColor="#22B14C"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mother"
+        android:textSize="24dp"
+        android:gravity="center"
+        
+        />
+   
+   <TextView 
+       android:id="@+id/language"
+       android:text="@string/language"
+   	   android:layout_width="fill_parent"
+   	   android:layout_height="wrap_content"
+   	   android:textSize="24dp"
+       />
+      
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center" 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        >
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:id="@+id/turkce"
+        android:layout_gravity="center"
+                
+        />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center" 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        >
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customeng"
+        android:id="@+id/english"
+        android:layout_gravity="center"
+        
+        />
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center" 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customde"
+        android:id="@+id/german"
+        android:layout_gravity="center"
+        />
+	</LinearLayout>
+    
+</LinearLayout>

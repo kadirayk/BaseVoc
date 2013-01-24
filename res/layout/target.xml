@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    android:gravity="center" >
+    
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center" 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        >
+        <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:id="@+id/tturkce"
+        android:layout_gravity="center"
+     />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center" 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        >
+        <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customeng"
+        android:id="@+id/tenglish"
+        android:layout_gravity="center"
+     />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center" 
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        >
+        <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customde"
+        android:id="@+id/tgerman"
+        android:layout_gravity="center"
+     />
+    </LinearLayout>
+
+</LinearLayout>
