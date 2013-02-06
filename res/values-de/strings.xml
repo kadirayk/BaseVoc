@@ -7,6 +7,15 @@
     <color name="bgcolor">#99D9EA</color>
     <string name="logo">logo</string>
 
+    <string name="tr_language">Türkisch</string>
+	<string name="en_language">Englisch</string>
+	<string name="de_language">Deutsch</string>
+    
+    
+    <string name="prev">früher</string>
+	<string name="study">lernen</string>
+	<string name="next">nächste</string>
+    
     <string name="animals">Tiere</string>
 	<string name="transport">Transportieren</string>
 	<string name="city">Stadt</string>
@@ -19,13 +28,364 @@
 	<string name="nature">Natur</string>
 	<string name="jobs">Beruf</string>
 	<string name="math">Mathematik</string>
-	<string name="numbers">Zahlen</string>
+	<string name="numbers">Kardinalzahlen</string>
 	<string name="months">Monate</string>
 	<string name="times">Zeit</string>
 	<string name="verbs">Verben</string>
 	<string name="adjectives">Adjektiv-Adverb</string>
 	<string name="misc">Verschieden</string>
     
+	<string name="s_animals">Tiere</string>
+	<string name="s_dog">hund</string>
+	<string name="s_cat">katze</string>
+	<string name="s_fish">fisch</string>
+	<string name="s_bird">vogel</string>
+	<string name="s_snake">schlange</string>
+	<string name="s_cow">kuh</string>
+	<string name="s_pig">schwein</string>
+	<string name="s_mouse">maus</string>
+	<string name="s_horse">pferd</string>
+	<string name="s_elephant">elefant</string>
+	<string name="s_tail">schwanz</string>
+	<string name="s_wing">flügel</string>
+	
+	
+	
+	<string name="s_train">zug</string>
+	<string name="s_plane">flugzeug</string>
+	<string name="s_car">auto</string>
+	<string name="s_bicycle">fahrrad</string>
+	<string name="s_bus">bus</string>
+	<string name="s_boat">boot</string>
+	<string name="s_tire">reifen</string>
+	<string name="s_gasoline">benzin</string>
+	<string name="s_ticket">ticket</string>
+	
+	
+	<string name="s_city">stadt</string>
+	<string name="s_house">haus</string>
+	<string name="s_street">straße</string>
+	<string name="s_airport">flughafen</string>
+	<string name="s_trainstation">bahnhof</string>
+	<string name="s_bridge">brücke</string>
+	<string name="s_hotel">hotel</string>
+	<string name="s_farm">bauernhof</string>
+	<string name="s_crowd">menschenmenge</string>
+	<string name="s_court">gericht</string>
     
-    
+	
+	<string name="s_hat">hut</string>
+	<string name="s_dress">kleiden</string>
+	<string name="s_skirt">rock</string>
+	<string name="s_shirt">hemd</string>
+	<string name="s_tshirt">t-shirt</string>
+	<string name="s_pants">hose</string>
+	<string name="s_shoes">schuhe</string>
+	<string name="s_pocket">tasche</string>
+	
+	
+	<string name="s_red">rot</string>
+	<string name="s_green">grün</string>
+	<string name="s_blue">blau</string>
+	<string name="s_yellow">gelb</string>
+	<string name="s_brown">braun</string>
+	<string name="s_pink">pink</string>
+	<string name="s_orange">orange</string>
+	<string name="s_gray">grau</string>
+	<string name="s_black">schwarz</string>
+	<string name="s_white">weiß</string>
+	
+	
+	<string name="s_son">sohn</string>
+	<string name="s_daughter">tochter</string>
+	<string name="s_mother">mutter</string>
+	<string name="s_father">vater</string>
+	<string name="s_man">mann</string>
+	<string name="s_woman">frau</string>
+	<string name="s_brother">bruder</string>
+	<string name="s_sister">schwester</string>
+	<string name="s_family">familie</string>
+	<string name="s_grandfather">großvater</string>
+	<string name="s_grandmother">großmutter</string>
+	<string name="s_husband">mann</string>
+	<string name="s_wife">frau</string>
+	<string name="s_king">könig</string>
+	<string name="s_queen">königin</string>
+	<string name="s_neighbor">nachbar</string>
+	<string name="s_boy">junge</string>
+	<string name="s_girl">mädchen</string>
+	<string name="s_religion">religion</string>
+	<string name="s_death">tod</string>
+	<string name="s_money">geld</string>
+	
+	
+	<string name="s_eggs">eier</string>
+	<string name="s_cheese">käse</string>
+	<string name="s_bread">brot</string>
+	<string name="s_soup">suppe</string>
+	<string name="s_cake">kuchen</string>
+	<string name="s_chicken">hähnchen</string>
+	<string name="s_pork">schweinefleisch</string>
+	<string name="s_beef">rindfleisch</string>
+	<string name="s_apple">apfel</string>
+	<string name="s_banana">banane</string>
+	<string name="s_lemon">zitrone</string>
+	<string name="s_corn">mais</string>
+	<string name="s_rice">reis</string>
+	<string name="s_oil">öl</string>
+	<string name="s_seed">samen</string>
+	<string name="s_knife">messer</string>
+	<string name="s_spoon">löffel</string>
+	<string name="s_fork">gabel</string>
+	<string name="s_plate">platte</string>
+	<string name="s_cup">tasse</string>
+	<string name="s_breakfast">frühstück</string>
+	<string name="s_lunch">mittagessen</string>
+	<string name="s_dinner">abendessen</string>
+	<string name="s_sugar">zucker</string>
+	<string name="s_coffee">kaffee</string>
+	<string name="s_tea">tee</string>
+	<string name="s_wine">wein</string>
+	<string name="s_beer">bier</string>
+	<string name="s_juice">saft</string>
+	<string name="s_water">wasser</string>
+	<string name="s_milk">milch</string>
+	
+	
+    <string name="s_table">tisch</string>
+	<string name="s_chair">stuhl</string>
+	<string name="s_clock">uhr</string>
+	<string name="s_bed">bett</string>
+	<string name="s_lamp">lampe</string>
+	<string name="s_window">fenster</string>
+	<string name="s_door">tür</string>
+	<string name="s_bedroom">schlafzimmer</string>
+	<string name="s_kitchen">küche</string>
+	<string name="s_bathroom">badezimmer</string>
+	<string name="s_pencil">bleistift</string>
+	<string name="s_pen">kugelschreiber</string>
+	<string name="s_photograph">foto</string>
+	<string name="s_soap">seife</string>
+	<string name="s_phone">telefon</string>
+	<string name="s_computer">computer</string>
+	<string name="s_camera">kamera</string>
+	<string name="s_television">fernseher</string>
+	<string name="s_book">buch</string>
+	<string name="s_key">schlüssel</string>
+	<string name="s_paint">malen</string>
+	
+	
+	<string name="s_head">kopf</string>
+	<string name="s_face">gesicht</string>
+	<string name="s_hair">haar</string>
+	<string name="s_eye">auge</string>
+	<string name="s_mouth">mund</string>
+	<string name="s_nose">nase</string>
+	<string name="s_ear">ohr</string>
+	<string name="s_tongue">zunge</string>
+	<string name="s_back">zurück</string>
+	<string name="s_finger">finger</string>
+	<string name="s_toe">zeh</string>
+	<string name="s_leg">bein</string>
+	<string name="s_foot">fuß</string>
+	<string name="s_heart">herz</string>
+	<string name="s_blood">blut</string>
+	<string name="s_brain">gehirn</string>
+	<string name="s_tooth">zahn</string>
+	<string name="s_knee">knie</string>
+	<string name="s_sweat">schwitzen</string>
+	<string name="s_disease">krankheit</string>
+	<string name="s_bone">knochen</string>
+	<string name="s_beard">bart</string>
+	<string name="s_tear">reißen</string>
+	
+	
+	<string name="s_sea">meer</string>
+	<string name="s_river">fluss</string>
+	<string name="s_mountain">berg</string>
+	<string name="s_rain">regen</string>
+	<string name="s_snow">schnee</string>
+	<string name="s_tree">baum</string>
+	<string name="s_sun">sonne</string>
+	<string name="s_moon">mond</string>
+	<string name="s_forest">wald</string>
+	<string name="s_plant">anlage</string>
+	<string name="s_wind">wind</string>
+	<string name="s_earth">erde</string>
+	<string name="s_flower">blume</string>
+	<string name="s_valley">tal</string>
+	<string name="s_root">wurzel</string>
+	<string name="s_lake">see</string>
+	<string name="s_star">stern</string>
+	<string name="s_grass">gras</string>
+	<string name="s_leaf">blatt</string>
+	<string name="s_air">luft</string>
+	<string name="s_sand">sand</string>
+	<string name="s_beach">strand</string>
+	<string name="s_ocean">ozean</string>
+	<string name="s_wave">welle</string>
+	<string name="s_morning">morgen</string>
+	<string name="s_evening">abend</string>
+	<string name="s_night">nacht</string>
+	
+	
+	<string name="s_teacher">lehrer</string>
+	<string name="s_doctor">arzt</string>
+	<string name="s_waiter">kellner</string>
+	<string name="s_secretary">sekretär</string>
+	<string name="s_priest">priester</string>
+	<string name="s_boss">chef</string>
+	<string name="s_salary">gehalt</string>
+	<string name="s_income">einkommen</string>
+	<string name="s_expense">ausgabe</string>
+	
+	
+	<string name="s_meter">meter</string>
+	<string name="s_centimeter">zantimeter</string>
+	<string name="s_kilogram">kilogramm</string>
+	<string name="s_hälfte">hälfte</string>
+	<string name="s_kreis">kreis</string>
+	<string name="s_quadrat">quadrat</string>
+	<string name="s_plus">plus</string>
+	<string name="s_minus">minus</string>
+	
+	
+	<string name="s_first">erste</string>
+	<string name="s_second">zweite</string>
+	<string name="s_third">dritte</string>
+	<string name="s_fourth">vierte</string>
+	<string name="s_fifth">fünfte</string>
+	<string name="s_sixth">sechste</string>
+	<string name="s_seventh">siebte</string>
+	<string name="s_eighth">achte</string>
+	<string name="s_ninth">neunte</string>
+	<string name="s_tenth">zehntel</string>
+	
+	
+	<string name="s_january">januar</string>
+	<string name="s_february">februar</string>
+	<string name="s_march">märz</string>
+	<string name="s_april">april</string>
+	<string name="s_may">mai</string>
+	<string name="s_june">juni</string>
+	<string name="s_july">juli</string>
+	<string name="s_august">august</string>
+	<string name="s_september">september</string>
+	<string name="s_october">oktober</string>
+	<string name="s_november">november</string>
+	<string name="s_december">dezember</string>
+	
+	
+	<string name="s_year">jahr</string>
+	<string name="s_month">monat</string>
+	<string name="s_day">tag</string>
+	<string name="s_hour">stunde</string>
+	<string name="s_minute">minute</string>
+	<string name="s_second1">zweite</string>
+	<string name="s_season">saison</string>
+	<string name="s_spring">frühjahr</string>
+	<string name="s_summer">sommer</string>
+	<string name="s_autumn">herbst</string>
+	<string name="s_winter">winter</string>
+	<string name="s_monday">montag</string>
+	<string name="s_tuesday">dienstag</string>
+	<string name="s_wednesday">mittwoch</string>
+	<string name="s_thursday">donnerstag</string>
+	<string name="s_friday">freitag</string>
+	<string name="s_saturday">samstag</string>
+	<string name="s_sunday">sonntag</string>
+	
+	
+	<string name="s_towork">zu arbeiten</string>
+	<string name="s_toplay">zu spielen</string>
+	<string name="s_togo">zu gehen</string>
+	<string name="s_towalk">zu fuß</string>
+	<string name="s_torun">laufen</string>
+	<string name="s_todrive">zu fahren</string>
+	<string name="s_tofollow">zu folgen</string>
+	<string name="s_tothink">zu denken</string>
+	<string name="s_tospeak">zu sprechen</string>
+	<string name="s_toeat">zu essen </string>
+	<string name="s_todrink">zu trinken</string>
+	<string name="s_tokill">zu töten</string>
+	<string name="s_todie">zu sterben</string>
+	<string name="s_tosmile">zu lächeln</string>
+	<string name="s_tolaugh">zu lachen</string>
+	<string name="s_tocry">zu weinen</string>
+	<string name="s_tobuy">kaufen</string>
+	<string name="s_tojump">zu springen</string>
+	<string name="s_tosmell">zu riechen</string>
+	<string name="s_tosee">zu sehen</string>
+	<string name="s_totaste">zu schmechen</string>
+	<string name="s_totouch">zu berühren</string>
+	<string name="s_tohear">zu hören</string>
+	<string name="s_tokiss">zu küssen</string>
+	<string name="s_toburn">zu brennen</string>
+	<string name="s_tomelt">zu schmelzen</string>
+	<string name="s_todig">zu graben</string>
+	<string name="s_toexplode">zu explodieren</string>
+	<string name="s_tosit">zu sitzen</string>
+	<string name="s_tostand">zu stehen</string>
+	<string name="s_tolove">zu lieben</string>
+	<string name="s_topass">passieren</string>
+	<string name="s_tocut">zu schneiden</string>
+	<string name="s_tofight">zu kämpfen</string>
+	<string name="s_todance">zu tanzen</string>
+	<string name="s_tosleep">schlafen</string>
+	<string name="s_towakeup">zu wecken</string>
+	<string name="s_tosing">zu singen</string>
+	<string name="s_tocount">zu zählen</string>
+	<string name="s_tomarry">zu heiraten</string>
+	<string name="s_topray">zu beten</string>
+	<string name="s_towin">zu gewinnen</string>
+	<string name="s_tolose">zu verlieren</string>
+	<string name="s_tomix">zu mischen</string>
+	<string name="s_tobend">zu biegen</string>
+	<string name="s_towash">zu waschen</string>
+	<string name="s_tocook">zu kochen</string>
+	<string name="s_toopen">zu öffnen</string>
+	<string name="s_toclose">zu schließen</string>
+	
+	
+	<string name="s_long">lange/kurz</string>
+	<string name="s_tall">groß/kurz</string>
+	<string name="s_wide">breit/schmal</string>
+	<string name="s_big">groß/klein</string>
+	<string name="s_slow">langsam/schnell</string>
+	<string name="s_hot">heiß/kalt</string>
+	<string name="s_new">neu/alt</string>
+	<string name="s_good">gut/schlecht</string>
+	<string name="s_wet">nass/trocknen</string>
+	<string name="s_sick">krank/gesunt</string>
+	<string name="s_loud">laut/ruhig</string>
+	<string name="s_happy">glücklich/traurig</string>
+	<string name="s_beautiful">schön/hässlich</string>
+	<string name="s_nice">schön/mittlere</string>
+	<string name="s_rich">reich/arm</string>
+	<string name="s_thick">dick/dünn</string>
+	<string name="s_expensive">teuer/billig</string>
+	<string name="s_flat">flach/gewölbt</string>
+	<string name="s_male">männlich/weiblich</string>
+	<string name="s_tight">eng/lose</string>
+	
+	
+	<string name="s_ball">ball</string>
+	<string name="s_game">spiel</string>
+	<string name="s_price">preis</string>
+	<string name="s_gun">pistole</string>
+	<string name="s_dream">traum</string>
+	<string name="s_left">links</string>
+	<string name="s_right">rechts</string>
+	<string name="s_straight">gerade</string>
+	<string name="s_bag">tasche</string>
+	<string name="s_box">box</string>
+	<string name="s_barrel">fass</string>
+	<string name="s_map">karte</string>
+	<string name="s_dot">punkt</string>
+	<string name="s_poison">gift</string>
+	<string name="s_needle">nadel</string>
+	<string name="s_llight">licht</string>
+	<string name="s_yes">ja</string>
+	<string name="s_no">nein</string>
+	
 </resources>

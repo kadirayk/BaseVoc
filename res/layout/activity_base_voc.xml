@@ -1,77 +1,146 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" 
-    android:background="@color/bgcolor"
-    android:gravity="center"
-    >
+    android:background="#434343"
+    android:orientation="vertical" >
 
-	       
     <TextView
-        android:textColor="#22B14C"
+        android:id="@+id/textView1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mother"
-        android:textSize="24dp"
+        android:layout_height="48dp"
+        android:background="#343434"
         android:gravity="center"
-        
-        />
-   
-   <TextView 
-       android:id="@+id/language"
-       android:text="@string/language"
-   	   android:layout_width="fill_parent"
-   	   android:layout_height="wrap_content"
-   	   android:textSize="24dp"
-       />
-      
-    <LinearLayout
-        android:layout_gravity="center"
-        android:gravity="center" 
-        android:layout_width="fill_parent"
-        android:layout_height="70dp"
-        >
-    <Button 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/custom"
-        android:id="@+id/turkce"
-        android:layout_gravity="center"
-                
-        />
-    </LinearLayout>
-    
-    
-    <LinearLayout
-        android:layout_gravity="center"
-        android:gravity="center" 
-        android:layout_width="fill_parent"
-        android:layout_height="70dp"
-        >
-    <Button 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/customeng"
-        android:id="@+id/english"
-        android:layout_gravity="center"
-        
-        />
-    </LinearLayout>
- 
-    <LinearLayout
-        android:layout_gravity="center"
-        android:gravity="center" 
-        android:layout_width="fill_parent"
-        android:layout_height="70dp"
-        >
+        android:text="@string/mother"
+        android:textColor="#EDEDED"
+        android:textSize="18dp" />
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/customde"
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/custom"
+        android:gravity="center"
+        android:text="@string/en_language"
+        android:textColor="#EDEDED"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/turkce"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/english"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/custom"
+        android:gravity="center"
+        android:text="@string/tr_language"
+        android:textColor="#EDEDED"
+        android:textSize="18dp" />
+
+    <Button
         android:id="@+id/german"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/english"
+        android:background="@drawable/custom"
+        android:text="@string/de_language"
+        android:textColor="#EDEDED"
+        android:textSize="18dp" />
+    <!--
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#A1E1F1"
+        android:text="@string/language"
+        android:textSize="24dp" />
+    -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:background="#222222" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/turkce"
+        android:layout_alignParentLeft="true"
+        android:background="#3F3F3F" >
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/trline1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/turkce"
+        android:background="#3F3F3F" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/turkce"
+        android:layout_alignParentLeft="true"
+        android:background="#222222" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/german"
+        android:background="#3F3F3F" />
+
+    <View
+        android:id="@+id/viewline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/german"
+        android:layout_alignParentLeft="true"
+        android:background="#222222" />
+
+    <View
+        android:id="@+id/viewline2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/german"
+        android:background="#222222" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewline2"
+        android:background="#3F3F3F" />
+    <View
+        android:id="@+id/viewtopl"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#222222" />
+
+    <View
+        android:id="@+id/viewtopl2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewtopl"
+        android:background="#3F3F3F" 
         />
-	</LinearLayout>
-    
-</LinearLayout>
+
+</RelativeLayout>

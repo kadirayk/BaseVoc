@@ -8,6 +8,17 @@
     <string name="logo">logo</string>
 
     
+    <string name="tr_language">Türkçe</string>
+	<string name="en_language">İngilizce</string>
+	<string name="de_language">Almanca</string>
+    
+    
+    <string name="prev">önceki</string>
+	<string name="study">öğren</string>
+	<string name="next">sonraki</string>
+    
+    
+    
     <string name="animals">Hayvanlar</string>
 	<string name="transport">Ulaşım</string>
 	<string name="city">Şehir</string>
@@ -20,12 +31,365 @@
 	<string name="nature">Doğa</string>
 	<string name="jobs">Meslekler</string>
 	<string name="math">Matematik</string>
-	<string name="numbers">Sayılar</string>
+	<string name="numbers">Sıralama Sayıları</string>
 	<string name="months">Aylar</string>
 	<string name="times">Zaman</string>
 	<string name="verbs">Fiiller</string>
 	<string name="adjectives">Sıfat-Zarf</string>
 	<string name="misc">Çeşitli Kelimeler</string>
+	
+	
+	<string name="s_animals">Hayvan</string>
+	<string name="s_dog">köpek</string>
+	<string name="s_cat">kedi</string>
+	<string name="s_fish">balık</string>
+	<string name="s_bird">kuş</string>
+	<string name="s_snake">yılan</string>
+	<string name="s_cow">inek</string>
+	<string name="s_pig">domuz</string>
+	<string name="s_mouse">fare</string>
+	<string name="s_horse">at</string>
+	<string name="s_elephant">fil</string>
+	<string name="s_tail">kuyruk</string>
+	<string name="s_wing">kanat</string>
+	
+	
+	<string name="s_train">tren</string>
+	<string name="s_plane">uçak</string>
+	<string name="s_car">araba</string>
+	<string name="s_bicycle">bisiklet</string>
+	<string name="s_bus">otobüs</string>
+	<string name="s_boat">tekne</string>
+	<string name="s_tire">tekerlek</string>
+	<string name="s_gasoline">benzin</string>
+	<string name="s_ticket">bilet</string>
     
-    
+    <string name="s_city">şehir</string>
+	<string name="s_house">ev</string>
+	<string name="s_street">sokak</string>
+	<string name="s_airport">havalimanı</string>
+	<string name="s_trainstation">tren istasyonu</string>
+	<string name="s_bridge">köprü</string>
+	<string name="s_hotel">otel</string>
+	<string name="s_farm">çiftlik</string>
+	<string name="s_crowd">topluluk</string>
+	<string name="s_court">mahkeme</string>
+	
+	
+	<string name="s_hat">şapka</string>
+	<string name="s_dress">elbise</string>
+	<string name="s_skirt">etek</string>
+	<string name="s_shirt">gömlek</string>
+	<string name="s_tshirt">tişört</string>
+	<string name="s_pants">pantolon</string>
+	<string name="s_shoes">ayakkabı</string>
+	<string name="s_pocket">cep</string>
+	
+	
+	<string name="s_red">kırmızı</string>
+	<string name="s_green">yeşil</string>
+	<string name="s_blue">mavi</string>
+	<string name="s_yellow">sarı</string>
+	<string name="s_brown">kahverengi</string>
+	<string name="s_pink">pembe</string>
+	<string name="s_orange">turuncu</string>
+	<string name="s_gray">gri</string>
+	<string name="s_black">siyah</string>
+	<string name="s_white">beyaz</string>
+	
+	
+	<string name="s_son">erkek evlat</string>
+	<string name="s_daughter">kız evlat</string>
+	<string name="s_mother">anne</string>
+	<string name="s_father">baba</string>
+	<string name="s_man">adam</string>
+	<string name="s_woman">kadın</string>
+	<string name="s_brother">erkek kardeş</string>
+	<string name="s_sister">kız kardeş</string>
+	<string name="s_family">aile</string>
+	<string name="s_grandfather">büyükbaba</string>
+	<string name="s_grandmother">büyükanne</string>
+	<string name="s_husband">koca (eş)</string>
+	<string name="s_wife">karı (eş)</string>
+	<string name="s_king">kral</string>
+	<string name="s_queen">kraliçe</string>
+	<string name="s_neighbor">komşu</string>
+	<string name="s_boy">erkek</string>
+	<string name="s_girl">kız</string>
+	<string name="s_religion">din</string>
+	<string name="s_death">ölüm</string>
+	<string name="s_money">para</string>
+	
+	
+	<string name="s_eggs">yumurta</string>
+	<string name="s_cheese">peynir</string>
+	<string name="s_bread">ekmek</string>
+	<string name="s_soup">çorba</string>
+	<string name="s_cake">kek</string>
+	<string name="s_chicken">tavuk</string>
+	<string name="s_pork">domuz eti</string>
+	<string name="s_beef">sığır eti</string>
+	<string name="s_apple">elma</string>
+	<string name="s_banana">muz</string>
+	<string name="s_lemon">limon</string>
+	<string name="s_corn">mısır</string>
+	<string name="s_rice">pirinç</string>
+	<string name="s_oil">yağ</string>
+	<string name="s_seed">tohum</string>
+	<string name="s_knife">bıçak</string>
+	<string name="s_spoon">kaşık</string>
+	<string name="s_fork">çatal</string>
+	<string name="s_plate">tabak</string>
+	<string name="s_cup">bardak</string>
+	<string name="s_breakfast">kahvaltı</string>
+	<string name="s_lunch">öğle yemeği</string>
+	<string name="s_dinner">akşam yemeği</string>
+	<string name="s_sugar">şeker</string>
+	<string name="s_coffee">kahve</string>
+	<string name="s_tea">çay</string>
+	<string name="s_wine">şarap</string>
+	<string name="s_beer">bira</string>
+	<string name="s_juice">meyve suyu</string>
+	<string name="s_water">su</string>
+	<string name="s_milk">süt</string>
+	
+	
+	<string name="s_table">masa</string>
+	<string name="s_chair">sandalye</string>
+	<string name="s_clock">saat</string>
+	<string name="s_bed">yatak</string>
+	<string name="s_lamp">lamba</string>
+	<string name="s_window">pencere</string>
+	<string name="s_door">kapı</string>
+	<string name="s_bedroom">yatakodası</string>
+	<string name="s_kitchen">mutfak</string>
+	<string name="s_bathroom">banyo</string>
+	<string name="s_pencil">kurşunkalem</string>
+	<string name="s_pen">tükenmez kalem</string>
+	<string name="s_photograph">fotoğraf</string>
+	<string name="s_soap">sabun</string>
+	<string name="s_phone">telefon</string>
+	<string name="s_computer">bilgisayar</string>
+	<string name="s_camera">fotoğraf makinesi</string>
+	<string name="s_television">televizyon</string>
+	<string name="s_book">kitap</string>
+	<string name="s_key">anahtar</string>
+	<string name="s_paint">resim</string>
+	
+	
+	<string name="s_head">baş</string>
+	<string name="s_face">yüz</string>
+	<string name="s_hair">saç</string>
+	<string name="s_eye">göz</string>
+	<string name="s_mouth">ağız</string>
+	<string name="s_nose">burun</string>
+	<string name="s_ear">kulak</string>
+	<string name="s_tongue">dil</string>
+	<string name="s_back">sırt</string>
+	<string name="s_finger">parmak</string>
+	<string name="s_toe">ayak parmağı</string>
+	<string name="s_leg">bacak</string>
+	<string name="s_foot">ayak</string>
+	<string name="s_heart">kalp</string>
+	<string name="s_blood">kan</string>
+	<string name="s_brain">beyin</string>
+	<string name="s_tooth">diş</string>
+	<string name="s_knee">diz</string>
+	<string name="s_sweat">ter</string>
+	<string name="s_disease">hastalık</string>
+	<string name="s_bone">kemik</string>
+	<string name="s_beard">sakal</string>
+	<string name="s_tear">gözyaşı</string>
+	
+	
+	<string name="s_sea">deniz</string>
+	<string name="s_river">nehir</string>
+	<string name="s_mountain">dağ</string>
+	<string name="s_rain">yağmur</string>
+	<string name="s_snow">kar</string>
+	<string name="s_tree">ağaç</string>
+	<string name="s_sun">güneş</string>
+	<string name="s_moon">ay</string>
+	<string name="s_forest">orman</string>
+	<string name="s_plant">bitki</string>
+	<string name="s_wind">rüzgar</string>
+	<string name="s_earth">toprak</string>
+	<string name="s_flower">çiçek</string>
+	<string name="s_valley">vadi</string>
+	<string name="s_root">kök</string>
+	<string name="s_lake">göl</string>
+	<string name="s_star">yıldız</string>
+	<string name="s_grass">çimen</string>
+	<string name="s_leaf">yaprak</string>
+	<string name="s_air">hava</string>
+	<string name="s_sand">kum</string>
+	<string name="s_beach">kumsal</string>
+	<string name="s_ocean">okyanus</string>
+	<string name="s_wave">dalga</string>
+	<string name="s_morning">sabah</string>
+	<string name="s_evening">akşam</string>
+	<string name="s_night">gece</string>
+	
+	
+	<string name="s_teacher">öğretmen</string>
+	<string name="s_doctor">doktor</string>
+	<string name="s_waiter">garson</string>
+	<string name="s_secretary">sekreter</string>
+	<string name="s_priest">rahip</string>
+	<string name="s_boss">patron</string>
+	<string name="s_salary">maaş</string>
+	<string name="s_income">gelir</string>
+	<string name="s_expense">gider</string>
+	
+	
+	<string name="s_meter">metre</string>
+	<string name="s_centimeter">santimetre</string>
+	<string name="s_kilogram">kilogram</string>
+	<string name="s_half">yarı</string>
+	<string name="s_circle">daire</string>
+	<string name="s_square">kare</string>
+	<string name="s_plus">artı</string>
+	<string name="s_minus">eksi</string>
+	
+	
+	<string name="s_first">birinci</string>
+	<string name="s_second">ikinci</string>
+	<string name="s_third">üçüncü</string>
+	<string name="s_fourth">dördüncü</string>
+	<string name="s_fifth">beşinci</string>
+	<string name="s_sixth">altıncı</string>
+	<string name="s_seventh">yedinci</string>
+	<string name="s_eighth">sekizinci</string>
+	<string name="s_ninth">dokuzuncu</string>
+	<string name="s_tenth">onuncu</string>
+	
+	
+	
+	<string name="s_january">ocak</string>
+	<string name="s_february">şubat</string>
+	<string name="s_march">mart</string>
+	<string name="s_april">nisan</string>
+	<string name="s_may">mayıs</string>
+	<string name="s_june">haziran</string>
+	<string name="s_july">temmuz</string>
+	<string name="s_august">ağustos</string>
+	<string name="s_september">eylül</string>
+	<string name="s_october">ekim</string>
+	<string name="s_november">kasım</string>
+	<string name="s_december">aralık</string>
+	
+	
+	<string name="s_year">yıl</string>
+	<string name="s_month">ay</string>
+	<string name="s_day">gün</string>
+	<string name="s_hour">saat</string>
+	<string name="s_minute">dakika</string>
+	<string name="s_second1">saniye</string>
+	<string name="s_season">mevsim</string>
+	<string name="s_spring">ilkbahar</string>
+	<string name="s_summer">yaz</string>
+	<string name="s_autumn">sonbahar</string>
+	<string name="s_winter">kış</string>
+	<string name="s_monday">pazartesi</string>
+	<string name="s_tuesday">salı</string>
+	<string name="s_wednesday">çarşamba</string>
+	<string name="s_thursday">perşembe</string>
+	<string name="s_friday">cuma</string>
+	<string name="s_saturday">cumartesi</string>
+	<string name="s_sunday">pazar</string>
+	
+	
+	<string name="s_towork">çalışmak</string>
+	<string name="s_toplay">oynamak</string>
+	<string name="s_togo">gitmek</string>
+	<string name="s_towalk">yürümek</string>
+	<string name="s_torun">koşmak</string>
+	<string name="s_todrive">sürmek (araç)</string>
+	<string name="s_tofollow">takip etmek</string>
+	<string name="s_tothink">düşünmek</string>
+	<string name="s_tospeak">konuşmak</string>
+	<string name="s_toeat">yemek</string>
+	<string name="s_todrink">içmek</string>
+	<string name="s_tokill">öldürmek</string>
+	<string name="s_todie">ölmek</string>
+	<string name="s_tosmile">gülümsemek</string>
+	<string name="s_tolaugh">gülmek</string>
+	<string name="s_tocry">ağlamak</string>
+	<string name="s_tobuy">satınalmak</string>
+	<string name="s_tojump">zıplamak</string>
+	<string name="s_tosmell">koklamak</string>
+	<string name="s_tosee">görmek</string>
+	<string name="s_totaste">tatmak</string>
+	<string name="s_totouch">dokunmak</string>
+	<string name="s_tohear">duymak</string>
+	<string name="s_tokiss">öpmek</string>
+	<string name="s_toburn">yanmak</string>
+	<string name="s_tomelt">erimek</string>
+	<string name="s_todig">kazmak</string>
+	<string name="s_toexplode">patlamak</string>
+	<string name="s_tosit">oturmak</string>
+	<string name="s_tostand">durmak (ayakta)</string>
+	<string name="s_tolove">sevmek</string>
+	<string name="s_topass">geçmek</string>
+	<string name="s_tocut">kesmek</string>
+	<string name="s_tofight">dövüşmek</string>
+	<string name="s_todance">dans etmek</string>
+	<string name="s_tosleep">uyumak</string>
+	<string name="s_towakeup">uyanmak</string>
+	<string name="s_tosing">şarkı söylemek</string>
+	<string name="s_tocount">saymak</string>
+	<string name="s_tomarry">evlenmek</string>
+	<string name="s_topray">dua etmek</string>
+	<string name="s_towin">kazanmak</string>
+	<string name="s_tolose">kaybetmek</string>
+	<string name="s_tomix">karıştırmak</string>
+	<string name="s_tobend">bükmek</string>
+	<string name="s_towash">yıkamak</string>
+	<string name="s_tocook">pişirmek</string>
+	<string name="s_toopen">açmak</string>
+	<string name="s_toclose">kapatmak</string>
+	
+	
+	<string name="s_long">uzun/kısa</string>
+	<string name="s_tall">uzun boylu/kısa boylu</string>
+	<string name="s_wide">geniş/dar</string>
+	<string name="s_big">büyük/küçük</string>
+	<string name="s_slow">yavaş/hızlı</string>
+	<string name="s_hot">sıcak/soğuk</string>
+	<string name="s_new">yeni/eski</string>
+	<string name="s_good">iyi/kötü</string>
+	<string name="s_wet">ıslak/kuru</string>
+	<string name="s_sick">hasta/sağlıklı</string>
+	<string name="s_loud">gürültülü/sessiz</string>
+	<string name="s_happy">mutlu/üzgün</string>
+	<string name="s_beautiful">güzel/çirkin</string>
+	<string name="s_nice">hoş/sevimsiz</string>
+	<string name="s_rich">zengin/fakir</string>
+	<string name="s_thick">kalın/ince</string>
+	<string name="s_expensive">pahalı/ucuz</string>
+	<string name="s_flat">düz/kavisli</string>
+	<string name="s_male">erkek/dişi</string>
+	<string name="s_tight">sıkı/gevşek</string>
+	
+	
+	<string name="s_ball">top</string>
+	<string name="s_game">oyun</string>
+	<string name="s_price">fiyat</string>
+	<string name="s_gun">tabanca</string>
+	<string name="s_dream">rüya</string>
+	<string name="s_left">sol</string>
+	<string name="s_right">sağ</string>
+	<string name="s_straight">düz</string>
+	<string name="s_bag">çanta</string>
+	<string name="s_box">kutu</string>
+	<string name="s_barrel">varil</string>
+	<string name="s_map">harita</string>
+	<string name="s_dot">nokta</string>
+	<string name="s_poison">zehir</string>
+	<string name="s_needle">iğne</string>
+	<string name="s_llight">ışık</string>
+	<string name="s_yes">evet</string>
+	<string name="s_no">hayır</string>
+	
+	
 </resources>

@@ -1,0 +1,108 @@
+package sesa.chemnitz.basevoc;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class Times extends Activity{
+
+	
+	
+	
+	int holder=-1;
+
+	
+	String englishWords[]={"year", "month", "day", "hour", "minute", "second", "season", "spring", "summer", 
+			"autumn", "winter", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"};
+	
+	String turkishWords[]={"yýl", "ay", "gün", "saat", "dakika", "saniye", "mevsim", "ilkbahar", "yaz", 
+			"sonbahar", "kýþ", "pazartesi", "salý", "çarþamba", "perþembe", "cuma", "cumartesi", "pazar"};
+	
+	String germanWords[]={"jahr", "monat", "tag", "stunde", "minute", "zweite", "saison", "frühjahr", "sommer", 
+			"herbst", "winter", "mondag", "dienstag", "mittwoch", "donnerstag", "freitag", "samstag", "sonntag"};
+	
+	int n = englishWords.length-1;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.card);
+	
+		final boolean calleren = getIntent().getBooleanExtra("calleren", false);
+		final boolean callertr = getIntent().getBooleanExtra("callertr", false);
+		final boolean callerde = getIntent().getBooleanExtra("callerde", false);
+		
+		
+		Button PrevButton = (Button) findViewById(R.id.prevButton);
+		Button NextButton = (Button) findViewById(R.id.nextButton);
+		Button studyButton = (Button) findViewById(R.id.studyButton);
+		final TextView word = (TextView) findViewById(R.id.word);
+		
+		word.setText(R.string.times);
+		
+		PrevButton.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				holder--;
+				
+				if(holder<0){
+					holder=0;
+				}
+				if(callertr){
+					word.setText(turkishWords[holder]);
+					}
+				else if(calleren){
+					word.setText(englishWords[holder]);
+				}
+				else if(callerde){
+					word.setText(germanWords[holder]);
+				}
+				
+			}
+			
+			
+		});
+		
+		NextButton.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				holder++;
+				if(holder>n){
+					holder=n;
+				}
+				if(callertr){
+					word.setText(turkishWords[holder]);
+					}
+				else if(calleren){
+					word.setText(englishWords[holder]);
+				}
+				else if(callerde){
+					word.setText(germanWords[holder]);
+				}
+			}
+		});
+		
+		studyButton.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				if(holder!=-1){
+					
+					word.setText(R.string.s_year+holder);
+				}
+				
+				
+			}
+		});
+		
+	}
+	
+}

@@ -4,6 +4,7 @@ package sesa.chemnitz.basevoc;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -17,11 +18,19 @@ public class BaseVoc extends Activity {
 	public int sLanguage;
 	TextView display;
 	TextView fgh;
-		
+	
+	int semi=3;
+	
+	Layout trlin;
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_base_voc);
+       
+        
+        	
+        	setContentView(R.layout.activity_base_voc);
+        
         sLanguage=0;
         
         
@@ -29,31 +38,49 @@ public class BaseVoc extends Activity {
         motherEnglish = (Button) findViewById(R.id.english);
         motherGerman = (Button) findViewById(R.id.german);
         
-        display = (TextView) findViewById(R.id.language);
+        
+        
+       
         motherTurkish.setOnClickListener(new View.OnClickListener() {
 			
         	
-        		
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
+				Button clicked = (Button) v;
+				
+				if(clicked.getId()==R.id.turkce){
+					semi=1;
+				}else{
+					semi=4;
+				}
 				
 				
-				display.setText(R.string.v_colors);
-				Intent trMenu = new Intent("sesa.chemnitz.basevoc.MENU");
+			
+				Intent trMenu = new Intent("sesa.chemnitz.basevoc.MENUTR");
 				
 				startActivity(trMenu);
 				
 			}
+			
 		});
+        
         
         motherEnglish.setOnClickListener(new View.OnClickListener() {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				display.setText(R.string.v_animals);
+			
 
+				if(v==motherEnglish){
+					semi=2;
+				}else{
+					semi=4;
+				}
+				
+				
 				Intent enMenu = new Intent("sesa.chemnitz.basevoc.MENU");
+				
 				startActivity(enMenu);
 				
 			}
@@ -66,8 +93,15 @@ public class BaseVoc extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
-				display.setText(R.string.v_city);
-				Intent deMenu = new Intent("sesa.chemnitz.basevoc.MENU");
+				if(v==motherGerman){
+					semi=5;
+				}else{
+					semi=4;
+				}
+				
+				
+				//display.setText(R.string.v_city);
+				Intent deMenu = new Intent("sesa.chemnitz.basevoc.MENUDE");
 				startActivity(deMenu);
 				
 				

@@ -40,6 +40,116 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Menutr"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="sesa.chemnitz.basevoc.MENUTR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menude"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="sesa.chemnitz.basevoc.MENUDE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Animals"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Transport"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+         <activity
+            android:name=".City"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Clothes"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Colors"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".People"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".FoodsDrinks"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Body"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Nature"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Jobs"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Math"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Numbers"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Months"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Times"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Verbs"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+         <activity
+            android:name=".AdjectivesAdverbs"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Misc"
+            android:label="@string/title_activity_base_voc" 
+            android:exported="false" >
+        </activity>
     </application>
 
 </manifest>

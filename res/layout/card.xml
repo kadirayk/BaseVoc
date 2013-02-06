@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343" >
+
+    <LinearLayout
+        android:id="@+id/footer"
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#343434"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom"
+            android:text="@string/prev"
+            android:textColor="#EDEDED"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#222222" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#3F3F3F" />
+
+        <Button
+            android:id="@+id/studyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87"
+            android:background="@drawable/custom"
+            android:text="@string/study"
+            android:textColor="#EDEDED"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#222222" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#3F3F3F" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.92"
+            android:background="@drawable/custom"
+            android:text="@string/next"
+            android:textColor="#EDEDED"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#343434"
+        android:gravity="center"
+        
+        android:textColor="#EDEDED"
+        android:textSize="32dp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/word"
+        android:layout_alignParentLeft="true"
+        android:background="#3F3F3F" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/view1"
+        android:layout_alignParentLeft="true"
+        android:background="#222222" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/word"
+        android:background="#222222" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view2"
+        android:background="#3F3F3F" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentLeft="true"
+        android:background="#3F3F3F" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/view3"
+        android:layout_alignParentLeft="true"
+        android:background="#222222" />
+
+</RelativeLayout>
